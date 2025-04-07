@@ -3,3 +3,17 @@
 @theme {
   --color-sp-darkgrey: #1e1e1e;
 }
+
+* {
+  font-family: "Arial";
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: var(--color-sp-darkgrey);
+  height: 100vh;
+  overflow-x: auto;
+  width: 100vw;
+}
