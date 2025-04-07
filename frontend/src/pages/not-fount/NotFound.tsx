@@ -10,7 +10,7 @@ const titleStyles = tv({
 });
 
 const subtitleStyles = tv({
-  base: "text-lg"
+  base: "text-lg pb-4"
 });
 
 const buttonStyles = tv({
