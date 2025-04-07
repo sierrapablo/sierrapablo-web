@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@theme {
+  --color-sp-darkgrey: #1e1e1e;
+}
