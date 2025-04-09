@@ -1,0 +1,21 @@
+api:
+  insecure: true
+
+providers:
+  docker:
+    exposedByDefault: false
+  file:
+    filename: /etc/traefik/dynamic/rules.yml
+
+entryPoints:
+  web:
+    address: ":80"
+  websecure:
+    address: ":443"
+
+certificatesResolvers:
+  myresolver:
+    tls:
+      certFile: /etc/traefik/ssl/fullchain.pem
+      keyFile: /etc/traefik/ssl/sierrapablo.dev.key
+
